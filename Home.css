@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.home-container {
+  background-color: black;
+  color: white;
+  min-height: 100vh;
+  position: relative;
+  padding: 20px;
+}
+
+.header {
+  text-align: right;
+  margin-right: 20px;
+}
+
+.heading {
+  color: blue;
+  font-weight: bold;
+  font-size: 32px;
+  margin: 0;
+}
+
+.waves {
+  height: 10px;
+  background: linear-gradient(90deg, blue, cyan, blue);
+  background-size: 200% 100%;
+  animation: wave 2s infinite linear;
+  margin-top: 4px;
+}
+
+@keyframes wave {
+  0% { background-position: 0% 0; }
+  100% { background-position: 200% 0; }
+}
+
+.tagline {
+  font-size: 14px;
+  color: white;
+  margin-top: 5px;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin: 20px 0;
+}
+
+.nav-links a {
+  color: cyan;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+.home-middle {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.home-middle h2 {
+  font-size: 28px;
+  color: white;
+}
+
+.home-middle p {
+  font-size: 18px;
+  color: lightblue;
+}
