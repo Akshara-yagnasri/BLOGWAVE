@@ -1,5 +1,6 @@
 Blogwave
 Blogwave is a full-stack MERN (MongoDB, Express, React, Node.js) blogging platform where users can register, log in, write blog posts, comment, and manage content securely.
+http://localhost:3000/
 
 Features
 
